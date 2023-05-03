@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="productos.css">
+    <title>Productos</title>
+</head>
+
+<body>
+    <header>
+        <div class="box-container">
+            <h1>
+                <img src="assets/logo.png" alt="logo-header">
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Productos</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <ul class="products">
+            <li>
+                <h2>Cabello</h2>
+                <img class="img-products" src="assets/cabello.jpg" alt="">
+                <p class="product-desc">Con tijera o máquina, a gusto del cliente</p>
+                <p class="product-price">$80.00</p>
+            </li>
+            <li>
+                <h2>Barba</h2>
+                <img class="img-products" src="assets/barba.jpg" alt="">
+                <p class="product-desc">Corte y diseño profesional de barba</p>
+                <p class="product-price">$60.00</p>
+            </li>
+            <li>
+                <h2>Cabello + Barba</h2>
+                <img class="img-products" src="assets/cabello+barba.jpg" alt="">
+                <p class="product-desc">Paquete completo de cabello y barba</p>
+                <p class="product-price">$120.00</p>
+            </li>
+        </ul>
+
+    </main>
+    <footer>
+        <img src="assets/logo-blanco.png" alt="">
+        <p>
+            <p>Todos los derechos reservados &copy; <span id="currentYear"></span></p>
+        </p>
+            <script>
+                let currentYear = new Date().getFullYear();
+                document.getElementById("currentYear").innerHTML = currentYear;
+            </script>
+    </footer>
+</body>
+
+</html>
