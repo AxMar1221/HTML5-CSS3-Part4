@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="productos.css">
     <title>Productos</title>
 </head>
@@ -13,19 +12,17 @@
 <body>
     <header>
         <div class="box-container">
-            <h1>
-                <img src="assets/logo.png" alt="logo-header">
-            </h1>
+            <img class="logo" src="assets/logo.png" alt="logo-header">
             <nav>
                 <ul>
                     <li>
                         <a href="index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="#">Productos</a>
+                        <a href="productos.html">Productos</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </nav>
@@ -56,14 +53,11 @@
 
     </main>
     <footer>
-        <img src="assets/logo-blanco.png" alt="">
+        <img class="logo" src="assets/logo-blanco.png" alt="">
         <p>
             <p>Todos los derechos reservados &copy; <span id="currentYear"></span></p>
         </p>
-            <script>
-                let currentYear = new Date().getFullYear();
-                document.getElementById("currentYear").innerHTML = currentYear;
-            </script>
+            <script src="script.js"></script>
     </footer>
 </body>
 

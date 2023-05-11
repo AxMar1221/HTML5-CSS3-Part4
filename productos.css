@@ -30,8 +30,8 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-    color: #dcca02;
-    text-decoration: underline;
+  color: #dcca02;
+  text-decoration: underline;
 }
 .products {
   width: 940px;
@@ -52,9 +52,9 @@ nav a:hover {
   border-bottom-width: 15px;
 }
 .products li:hover {
-    border-color: #dcca02;
-    color: #dcca02;
-    cursor: pointer;
+  border-color: #dcca02;
+  color: #dcca02;
+  cursor: pointer;
 }
 .products h2 {
   font-size: 25px;
@@ -62,7 +62,7 @@ nav a:hover {
   text-transform: uppercase;
 }
 .products li:hover h2 {
-    font-size: 27px;
+  font-size: 27px;
 }
 .product-desc {
   font-size: 20px;
@@ -77,13 +77,21 @@ nav a:hover {
   border-radius: 50%;
 }
 .img-products:hover {
-    border-color: #dcca02;
-    color: #dcca02;
+  border-color: #dcca02;
+  color: #dcca02;
 }
-
+.logo {
+  transition: 1.5s all;
+}
+.logo:hover {
+  border-radius: 100%;
+  background: #ff4800;
+  border: 2px solid #ffffff;
+  transform: rotate(360deg);
+}
 footer {
-    text-align: center;
-    color: #ffffff;
-    background-image: url(assets/bg.jpg);
-    padding: 15px 15px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(assets/bg.jpg);
+  padding: 15px 15px;
 }
